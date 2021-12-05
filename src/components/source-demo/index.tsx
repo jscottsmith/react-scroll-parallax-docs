@@ -13,7 +13,7 @@ export const SourceDemo = (props: SourceDemoProps) => {
     >
       <div className="flex items-start w-1/3">
         <div className="flex items-center sticky top-lg h-screen w-full">
-          <div className="w-full m-lg p-lg bg-white rounded-md border-solid border border-gray-100 text-gray-700">
+          <div className="w-full m-lg p-lg bg-white rounded-md border-solid border border-gray-200 text-gray-700">
             <h1 className="text-2xl mb-lg">{props.title}</h1>
             <pre className="font-mono bg-gray-200 p-md rounded-md">
               {props.source}
