@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "react-scroll-parallax-docs",
+  "private": false,
+  "description": "Docs and demos website for React Scroll Parallax package.",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
