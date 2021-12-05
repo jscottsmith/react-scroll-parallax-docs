@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.px-bg {
+  background-image: url(https://react-scroll-parallax-v3.surge.sh/static/media/bg-grid.abbd0d44.svg);
+  background-color: #222;
+  /* background-color: #fff; */
+}
