@@ -7,7 +7,7 @@ export const Hero = () => {
     <article className="bg-purple-300 h-screen flex items-center justify-center">
       <h1 className="text-4xl flex gap-md">
         {PARALLAX.map((letter, i) => (
-          <Parallax speed={-i - i * 2}>
+          <Parallax key={i} speed={-i - i * 2}>
             <span className="flex w-24 h-24 bg-purple-200 rounded-md items-center justify-center">
               {letter}
             </span>
