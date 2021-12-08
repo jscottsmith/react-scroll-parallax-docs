@@ -9,8 +9,8 @@ import { PageContainer } from "../templates/page-container"
 export default function Home() {
   return (
     <PageContainer>
-      <Hero />
       <Header />
+      <Hero />
       <SourceDemo
         title="How it works"
         description="As the element scrolls past the viewport a css translate effect is applied based on the original element's position relative to the viewport. Using the speed will automatically apply a translateY css style (or translateX if the scroll axis is horizontal)."

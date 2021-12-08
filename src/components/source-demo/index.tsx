@@ -8,7 +8,7 @@ type SourceDemoProps = PropsWithChildren<{
 
 export const SourceDemo = (props: SourceDemoProps) => {
   return (
-    <section style={{ minHeight: "200vh" }} className="flex bg-gray-50">
+    <section style={{ minHeight: "250vh" }} className="flex bg-gray-50">
       <div className="relative flex flex-row w-1/3">
         <div className="sticky top-lg flex items-center justify-stretch w-full h-screen">
           <div className="relative w-full">

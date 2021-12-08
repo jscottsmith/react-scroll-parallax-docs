@@ -9,8 +9,8 @@ export const NavLink = (props: NavLinkProps) => {
   const { children, ...rest } = props
   return (
     <Link
-      className="font-bold text-4xl text-gray-700 hover:text-purple-600"
-      activeClassName="text-purple-800 underline"
+      className="h-full font-bold text-lg text-gray-700 hover:text-blue-600"
+      activeClassName="text-blue-800 border-b-4 border-blue-800"
       {...rest}
     >
       {props.children}
