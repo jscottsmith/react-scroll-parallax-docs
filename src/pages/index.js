@@ -21,12 +21,12 @@ export default function Home() {
             speed={-10}
             className="rounded-lg bg-gray-600 bg-opacity-50"
           >
-            <div className="border-2 border-green-200 border-solid flex items-center justify-center bg-green-400 h-48 w-48 rounded-lg">
+            <div className="border-2 border-red-200 border-solid flex items-center justify-center bg-red-400 h-48 w-48 rounded-lg">
               <p className="text-center font-bold">Slower</p>
             </div>
           </Parallax>
           <Parallax speed={10} className="rounded-lg bg-gray-600 bg-opacity-50">
-            <div className="border-2 border-red-200 border-solid flex items-center justify-center bg-red-400 h-48 w-48 rounded-lg">
+            <div className="border-2 border-green-200 border-solid flex items-center justify-center bg-green-400 h-48 w-48 rounded-lg">
               <p className="text-center font-bold">Faster</p>
             </div>
           </Parallax>
