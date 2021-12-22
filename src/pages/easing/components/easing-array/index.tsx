@@ -1,7 +1,7 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
-const ITEMS = Array(10).fill(0)
+const ITEMS = new Array(10).fill(0)
 
 type EasingArray = {
   easing: string
