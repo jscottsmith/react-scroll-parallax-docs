@@ -11,6 +11,7 @@ export const Navigation = () => {
       </NavLink>
       <div className="flex gap-2">
         <NavLink to="/speed">Speed</NavLink>
+        <NavLink to="/easing">Easing</NavLink>
       </div>
     </nav>
   )

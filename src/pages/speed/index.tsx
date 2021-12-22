@@ -4,7 +4,7 @@ import { PageContainer } from "../../templates/page-container"
 import { Parallax } from "react-scroll-parallax"
 import { Header } from "../../components/header"
 
-export default function Home() {
+export default function Speed() {
   return (
     <PageContainer>
       <Header />
