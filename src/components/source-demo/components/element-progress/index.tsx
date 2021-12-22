@@ -42,12 +42,20 @@ export const ElementProgress = () => {
               <div className="absolute left-1/2 top-full border-dotted border-gray-400 border-r-2 h-48" />
             </div>
 
-            <div className="absolute -left-48 text-sm bg-yellow-300 p-sm rounded-md">
-              <div>Progress</div>
-              <div className="font-medium text-xl text-right tabular-nums">
-                {progress.toFixed(2)}
+            <div
+              className="absolute flex items-center -left-48 text-sm bg-yellow-300 p-sm rounded-md"
+              style={{ top: `${progress * 100}%`, height: 80, marginTop: -40 }}
+            >
+              <div>
+                <div className="w-full">Progress</div>
+                <div className="font-medium text-xl text-right tabular-nums">
+                  {progress.toFixed(3)}
+                </div>
               </div>
-              <div className="absolute left-full top-1/2 border-dotted border-gray-400 border-b-2 w-48" />
+              <div
+                className="absolute left-full top-1/2 border-dotted border-gray-400 border-b-2 w-48"
+                style={{ marginTop: -1 }}
+              />
             </div>
 
             <div
