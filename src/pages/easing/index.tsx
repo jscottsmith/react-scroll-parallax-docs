@@ -2,7 +2,7 @@ import React from "react"
 import { SourceDemo } from "../../components/source-demo"
 import { PageContainer } from "../../templates/page-container"
 import { Header } from "../../components/header"
-import { EasingArray } from "./components/easing-array"
+import { EasingArray } from "../../components/easing-array"
 
 const EASING = [
   "ease",
