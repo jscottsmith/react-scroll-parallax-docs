@@ -5,7 +5,15 @@
  */
 
 module.exports = {
-  /* Your site config here */
-
-  plugins: ["gatsby-plugin-postcss"],
+  plugins: [
+    "gatsby-plugin-postcss",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/routes`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }

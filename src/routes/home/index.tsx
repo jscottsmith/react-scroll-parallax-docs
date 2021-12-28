@@ -3,10 +3,12 @@ import { Parallax } from "react-scroll-parallax"
 import { Hero } from "./components/hero"
 import { SourceDemo } from "../../components/source-demo"
 import { ElementProgress } from "../../components/source-demo/components/element-progress"
+import { Intro } from "./components/intro"
 
 export const Home = () => {
   return (
     <>
+      {/* <Intro /> */}
       <Hero />
       <SourceDemo
         title="How it works"
