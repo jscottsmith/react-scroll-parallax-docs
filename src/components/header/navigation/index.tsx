@@ -8,14 +8,15 @@ export const Navigation = () => {
       <div className="flex gap-2">
         <NavLink to="/speed">Speed</NavLink>
         <NavLink to="/easing">Easing</NavLink>
-        <NavLink
-          to="https://github.com/jscottsmith/react-scroll-parallax"
+        <a
+          className="h-full font-bold text-lg text-gray-700 hover:text-blue-600"
+          href="https://github.com/jscottsmith/react-scroll-parallax"
           aria-label="GitHub Repository"
           rel="noopener noreferrer"
           target="_blank"
         >
           <GithubLogo />
-        </NavLink>
+        </a>
       </div>
     </nav>
   )
