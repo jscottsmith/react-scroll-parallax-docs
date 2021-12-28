@@ -7258,10 +7258,10 @@ package-json@^6.3.0:
     registry-url "^5.0.0"
     semver "^6.2.0"
 
-parallax-controller@^0.1.30:
-  version "0.1.30"
-  resolved "https://registry.yarnpkg.com/parallax-controller/-/parallax-controller-0.1.30.tgz#2afd147a97ea3551a0e881ef35574fa7a98801ab"
-  integrity sha512-9FQNGODJ9yDOfYvJhVGZvETNXpuzUdQS8xB2HZ6J1CnZEUXpOFSsBpkSDmLk2ytvIXxjuwwhaaJszPVGcWQ6Yg==
+parallax-controller@^0.1.31:
+  version "0.1.31"
+  resolved "https://registry.yarnpkg.com/parallax-controller/-/parallax-controller-0.1.31.tgz#74dd287f4ce7bc7da7f98dc43d7759443c584102"
+  integrity sha512-mIOuI5ZWMQnOWclxokN3GjHHzrOabfZUkx3RYMQsanYcTFMx7FRaAkzQTMkcuxaEJM0aoTzmNRXyfV8WBd324Q==
   dependencies:
     bezier-easing "^2.1.0"
 
@@ -8042,12 +8042,12 @@ react-refresh@^0.9.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha512-Gvzk7OZpiqKSkxsQvO/mbTN1poglhmAV7gR/DdIrRrSMXraRQQlfikRJOr3Nb9GTMPC5kof948Zy6jJZIFtDvQ==
 
-react-scroll-parallax@^3.0.0-alpha.14:
-  version "3.0.0-alpha.14"
-  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.0.0-alpha.14.tgz#3a8290ad6da30b43cce90842e63170ff91096afa"
-  integrity sha512-OW7CMylSM70zhv7viOfrPR1ZDgUVWWNHqHrGcgQxtaTA2US+j0JX3u/QSJDe3dxbuYsL0NVRPO63h6gG3LOkyw==
+react-scroll-parallax@^3.0.0-alpha.15:
+  version "3.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.0.0-alpha.15.tgz#d524da5c6a6fc14d2cecf86ed286f835833b4d96"
+  integrity sha512-Mlty1cv9WAa9xixy36rDuX4NgN5ji3beSMQeTTxbgkXMj5JWV6FwfeV+b4sRRTo1pXnzr+HdVH53Xajvlw4CgA==
   dependencies:
-    parallax-controller "^0.1.30"
+    parallax-controller "^0.1.31"
 
 react@^17.0.1:
   version "17.0.2"
