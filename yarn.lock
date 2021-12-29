@@ -8449,10 +8449,10 @@ react-refresh@^0.9.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha512-Gvzk7OZpiqKSkxsQvO/mbTN1poglhmAV7gR/DdIrRrSMXraRQQlfikRJOr3Nb9GTMPC5kof948Zy6jJZIFtDvQ==
 
-react-scroll-parallax@^3.0.0-alpha.15:
-  version "3.0.0-alpha.15"
-  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.0.0-alpha.15.tgz#d524da5c6a6fc14d2cecf86ed286f835833b4d96"
-  integrity sha512-Mlty1cv9WAa9xixy36rDuX4NgN5ji3beSMQeTTxbgkXMj5JWV6FwfeV+b4sRRTo1pXnzr+HdVH53Xajvlw4CgA==
+react-scroll-parallax@^3.0.0-alpha.16:
+  version "3.0.0-alpha.16"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.0.0-alpha.16.tgz#790246463b15b23e9c30b58c59df39d2200002e7"
+  integrity sha512-bUvEcNlG7ZIoDqGMLmMjqxbXUfeBiyD4Ox3PbFU1UcZow/kbCqPM4AB3Pxf+Knfsd+Fez0+lndQogrg495/ONQ==
   dependencies:
     parallax-controller "^0.1.31"
 
