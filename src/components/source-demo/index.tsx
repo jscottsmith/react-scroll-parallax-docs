@@ -17,14 +17,14 @@ export const SourceDemo = (props: SourceDemoProps) => {
               {props.description && (
                 <p className="mb-md">{props.description}</p>
               )}
-              <pre className="w-full text-sm font-mono bg-gray-200 p-sm rounded-md overflow-x-auto w-full">
+              <pre className="text-sm font-mono bg-gray-200 p-sm rounded-md overflow-x-auto w-full">
                 {props.source}
               </pre>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative flex items-center justify-center w-2/3 bg-black px-bg">
+      <div className="relative flex items-center justify-center w-2/3 bg-black px-bg overflow-hidden">
         {props.children}
       </div>
     </section>
