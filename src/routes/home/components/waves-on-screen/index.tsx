@@ -6,7 +6,7 @@ const waves = [Wave1, Wave2, Wave3, Wave4, Wave5, Wave6]
 
 export const WavesOnScreen = () => {
   return (
-    <div className="relative p-lg md:p-2xl xl:p-3xl 2xl:p-4xl 3xl:p-5xl">
+    <div className="relative px-lg md:px-2xl xl:px-3xl 2xl:px-4xl 3xl:px-5xl py-xl md:py-3xl xl:py-5xl 2xl:py-6xl 3xl:py-7xl">
       {/* Faded background elements */}
       <div className="absolute inset-0">
         {waves.map((Wave, i) => {

@@ -9,7 +9,7 @@ type SourceDemoProps = PropsWithChildren<{
 export const SourceDemo = (props: SourceDemoProps) => {
   return (
     <section style={{ minHeight: "250vh" }} className="flex bg-gray-50">
-      <div className="relative flex flex-row w-1/3">
+      <div className="relative hidden lg:flex flex-row lg:w-1/3">
         <div className="sticky top-lg flex items-center justify-stretch w-full h-screen">
           <div className="relative w-full">
             <div className="bg-white rounded-md border-solid border border-gray-200 text-gray-700 m-lg p-lg">
@@ -24,7 +24,7 @@ export const SourceDemo = (props: SourceDemoProps) => {
           </div>
         </div>
       </div>
-      <div className="relative flex items-center justify-center w-2/3 bg-black px-bg overflow-hidden">
+      <div className="relative flex items-center justify-center w-full lg:w-2/3 bg-black px-bg overflow-hidden">
         {props.children}
       </div>
     </section>
