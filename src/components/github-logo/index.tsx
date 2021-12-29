@@ -3,11 +3,11 @@ import React from "react"
 export const GithubLogo = () => {
   return (
     <svg
-      height="32"
+      height="24"
       aria-hidden="true"
       viewBox="0 0 16 16"
       version="1.1"
-      width="32"
+      width="24"
     >
       <path
         fillRule="evenodd"
