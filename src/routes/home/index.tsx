@@ -4,12 +4,14 @@ import { Hero } from "./components/hero"
 import { SourceDemo } from "../../components/source-demo"
 import { ElementProgress } from "../../components/source-demo/components/element-progress"
 import { Intro } from "./components/intro"
+import { WavesOnScreen } from "./components/waves-on-screen"
 
 export const Home = () => {
   return (
     <>
+      <WavesOnScreen />
       {/* <Intro /> */}
-      <Hero />
+      {/* <Hero /> */}
       <SourceDemo
         title="How it works"
         description="As the element scrolls past the viewport a css translate effect is applied based on the original element's position relative to the viewport. Using the speed will automatically apply a translateY css style (or translateX if the scroll axis is horizontal)."

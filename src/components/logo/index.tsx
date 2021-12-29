@@ -10,7 +10,7 @@ export const Logo = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <rect x="0" width="20" height="20" rx="4" fill="#FA7A5E">
+      <rect x="0" width="20" height="20" rx="4" fill="#394F68">
         <animate
           attributeName="y"
           values="0;0;40;40;0"
@@ -26,7 +26,7 @@ export const Logo = props => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="20" y="20" width="40" height="40" rx="4" fill="#B25CE8">
+      <rect x="20" y="20" width="40" height="40" rx="4" fill="#FA7A5E">
         <animate
           attributeName="y"
           values="20;20;0;0;20"
