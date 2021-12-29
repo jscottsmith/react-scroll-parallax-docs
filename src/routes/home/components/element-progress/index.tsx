@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import cx from "classnames"
 import { Parallax } from "react-scroll-parallax"
-import { SourceDemo } from "../.."
+import { SourceDemo } from "../../../../components/source-demo"
 
 export const ElementProgress = () => {
   const [progress, setProgress] = useState(0)
@@ -24,7 +24,7 @@ export const ElementProgress = () => {
             <p className="text-center font-bold">Parallax Element</p>
           </div>
 
-          <div className="flex items-center justify-center h-48 w-48">
+          <div className="relative flex items-center justify-center h-48 w-48">
             <div
               className={cx("absolute -top-48 text-sm p-sm rounded-md", {
                 "bg-green-300": entered,
@@ -44,7 +44,11 @@ export const ElementProgress = () => {
 
             <div
               className="absolute flex items-center -left-48 text-sm bg-yellow-300 p-sm rounded-md"
-              style={{ top: `${progress * 100}%`, height: 80, marginTop: -40 }}
+              style={{
+                top: `${(progress * 100).toFixed(2)}%`,
+                height: 80,
+                marginTop: -40,
+              }}
             >
               <div>
                 <div className="w-full">Progress</div>

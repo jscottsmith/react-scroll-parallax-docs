@@ -1,9 +1,9 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
-import { Hero } from "./components/hero"
+// import { Hero } from "./components/hero"
 import { SourceDemo } from "../../components/source-demo"
-import { ElementProgress } from "../../components/source-demo/components/element-progress"
-import { Intro } from "./components/intro"
+import { ElementProgress } from "./components/element-progress"
+// import { Intro } from "./components/intro"
 import { WavesOnScreen } from "./components/waves-on-screen"
 
 export const Home = () => {
