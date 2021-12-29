@@ -8,7 +8,7 @@ export const Header = () => {
     <div className="z-50 bg-white shadow-sm border-b border-gray-100 flex items-center justify-between h-16 px-md lg:px-lg">
       <Link
         to="/"
-        className="font-bold text-lg text-gray-700 hover:text-blue-600"
+        className="font-bold md:text-lg text-gray-700 hover:text-blue-600 whitespace-nowrap"
       >
         <Logo className="inline-block w-8 mr-sm" />
         React Scroll Parallax
