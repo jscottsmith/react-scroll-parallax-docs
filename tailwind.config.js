@@ -4,6 +4,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      borderWidth: {
+        10: "10px",
+        15: "15px",
+        20: "20px",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+        "5xl": "2.5rem",
+        "6xl": "3rem",
+      },
       spacing: {
         "2xs": "0.125rem",
         xs: "0.25rem",
