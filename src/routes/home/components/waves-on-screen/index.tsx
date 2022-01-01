@@ -33,7 +33,7 @@ export const WavesOnScreen = () => {
       </div>
       {/* Screen and parallax elements */}
       <Parallax
-        scale={[1, 0.9]}
+        scale={[1, 0.85]}
         easing="easeInOutQuad"
         shouldStartAnimationInitialInView
       >
@@ -52,6 +52,7 @@ export const WavesOnScreen = () => {
                     translateY={[-0.3, endTranslate * -1]}
                     innerClassName="origin-top"
                     className="absolute top-0 left-0 right-0"
+                    easing="easeOutQuad"
                     shouldStartAnimationInitialInView
                   >
                     <img src={src} className="block w-full" />
@@ -60,6 +61,7 @@ export const WavesOnScreen = () => {
                     translateY={[0.3, endTranslate]}
                     innerClassName="origin-bottom"
                     className="absolute bottom-0 left-0 right-0"
+                    easing="easeOutQuad"
                     shouldStartAnimationInitialInView
                   >
                     <img src={src} className="block w-full -scale-y-100" />
@@ -69,11 +71,11 @@ export const WavesOnScreen = () => {
             })}
           </div>
           {/* UI Elements */}
-          <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-4 lg:left-8" />
-          <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-8 lg:left-14" />
-          <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-12 lg:left-20" />
         </div>
         <div className="absolute -inset-0.5 overflow-hidden rounded-3xl lg:rounded-4xl border-8 lg:border-10 xl:border-15 border-solid border-white" />
+        <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-4 lg:left-8" />
+        <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-8 lg:left-14" />
+        <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-12 lg:left-20" />
       </Parallax>
     </div>
   )
