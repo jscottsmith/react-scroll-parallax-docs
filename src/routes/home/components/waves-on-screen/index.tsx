@@ -34,6 +34,7 @@ export const WavesOnScreen = () => {
       {/* Screen and parallax elements */}
       <Parallax
         scale={[1, 0.85]}
+        className="mx-auto max-w-screen-2xl"
         easing="easeInOutQuad"
         shouldStartAnimationInitialInView
       >
