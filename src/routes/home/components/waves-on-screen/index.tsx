@@ -1,19 +1,31 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
-import { Wave1, Wave2, Wave3, Wave4, Wave5, Wave6 } from "./waves"
 
-const waves = [Wave1, Wave2, Wave3, Wave4, Wave5, Wave6]
+const waves = [
+  "/waves/layer-6.png",
+  "/waves/layer-5.png",
+  "/waves/layer-4.png",
+  "/waves/layer-3.png",
+  "/waves/layer-2.png",
+  "/waves/layer-1.png",
+]
 
 export const WavesOnScreen = () => {
   return (
     <div className="relative px-lg md:px-2xl xl:px-3xl 2xl:px-4xl 3xl:px-5xl py-xl md:py-3xl xl:py-5xl 2xl:py-6xl 3xl:py-7xl">
       {/* Faded background elements */}
       <div className="absolute inset-0">
-        {waves.map((Wave, i) => {
+        {waves.map((src, i) => {
           return (
             <div key={i}>
-              <Wave className="absolute top-0 left-0 right-0" />
-              <Wave className="absolute bottom-0 left-0 right-0 -scale-y-100" />
+              <img
+                className="block w-full absolute top-0 left-0 right-0"
+                src={src}
+              />
+              <img
+                className="block w-full absolute bottom-0 left-0 right-0 -scale-y-100"
+                src={src}
+              />
             </div>
           )
         })}
@@ -31,7 +43,7 @@ export const WavesOnScreen = () => {
           style={{ backgroundColor: "#BF7676", aspectRatio: "2.05 / 1" }}
         >
           <div className="">
-            {waves.map((Wave, i) => {
+            {waves.map((src, i) => {
               const n = i + 1
               const endTranslate = n * 10
               return (
@@ -42,7 +54,7 @@ export const WavesOnScreen = () => {
                     className="absolute top-0 left-0 right-0"
                     shouldStartAnimationInitialInView
                   >
-                    <Wave />
+                    <img src={src} className="block w-full" />
                   </Parallax>
                   <Parallax
                     translateY={[0.3, endTranslate]}
@@ -50,7 +62,7 @@ export const WavesOnScreen = () => {
                     className="absolute bottom-0 left-0 right-0"
                     shouldStartAnimationInitialInView
                   >
-                    <Wave className="-scale-y-100" />
+                    <img src={src} className="block w-full -scale-y-100" />
                   </Parallax>
                 </div>
               )
@@ -60,8 +72,8 @@ export const WavesOnScreen = () => {
           <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-4 lg:left-8" />
           <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-8 lg:left-14" />
           <div className="bg-white shadow-sm rounded-full w-2 lg:w-3 h-2 lg:h-3 absolute top-4 lg:top-8 left-12 lg:left-20" />
-          <div className="absolute inset-0 overflow-hidden rounded-3xl lg:rounded-4xl border-8 lg:border-10 xl:border-15 border-solid border-white" />
         </div>
+        <div className="absolute -inset-0.5 overflow-hidden rounded-3xl lg:rounded-4xl border-8 lg:border-10 xl:border-15 border-solid border-white" />
       </Parallax>
     </div>
   )
